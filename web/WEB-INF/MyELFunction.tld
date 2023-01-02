@@ -13,7 +13,7 @@
             显示货币形式的金额
         </description>
         <name>currency</name>
-        <function-class>cdu.zch.taglibs.MyELFunction</function-class>
+        <function-class>cdu.lhj.taglibs.MyELFunction</function-class>
         <function-signature>java.lang.String currency(java.math.BigDecimal)</function-signature>
         <example>
             money: ${myfunc:currency(money)}
@@ -25,7 +25,7 @@
             格式化日期
         </description>
         <name>formatDate</name>
-        <function-class>cdu.zch.taglibs.MyELFunction</function-class>
+        <function-class>cdu.lhj.taglibs.MyELFunction</function-class>
         <function-signature>java.lang.String formatDate(long)</function-signature>
         <example>
             date: ${myfunc:formatDate(datetime)}
@@ -37,7 +37,7 @@
             格式化日期时间
         </description>
         <name>formatDatetime</name>
-        <function-class>cdu.zch.taglibs.MyELFunction</function-class>
+        <function-class>cdu.lhj.taglibs.MyELFunction</function-class>
         <function-signature>java.lang.String formatDatetime(long)</function-signature>
         <example>
             datetime: ${myfunc:formatDatetime(datetime)}
