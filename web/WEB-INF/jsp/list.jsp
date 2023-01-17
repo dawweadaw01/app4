@@ -63,5 +63,8 @@
         <input type="submit" value="留 言">
     </form>
 </c:if>
+<c:if test="${user.name=='chenchenchen'}">
+    <img src="/photo/love.png">
+</c:if>
 </body>
 </html>

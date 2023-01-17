@@ -9,7 +9,7 @@ public class BaseDao {
     //注意url需要手动设置时区
     String url = "jdbc:mysql://localhost:3306/mydb?serverTimezone=UTC&characterEncoding=utf8&useUnicode=true&useSSL=false";
     String dbUserName = "root";
-    String dbPwd = "Lhj020826..";
+    String dbPwd = "123456";
 
     protected Connection conn = null;
 
